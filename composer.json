@@ -1,5 +1,5 @@
 {
-    "name": "paquettg/php-html-parser",
+    "name": "tschope/php-html-parser",
     "type": "library",
     "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
     "keywords": ["html", "dom", "parser"],
@@ -10,16 +10,21 @@
             "name": "Gilles Paquette",
             "email": "paquettg@gmail.com",
             "homepage": "http://gillespaquette.ca"
+        },
+        {
+            "name": "Rodrigo Tschope",
+            "email": "tschope@gmail.com",
+            "homepage": "https://tschope.tech"
         }
     ],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "ext-mbstring": "*",
         "ext-zlib": "*",
         "ext-curl": "*",
         "paquettg/string-encode": "~1.0.0",
         "php-http/httplug": "^2.1",
-        "php-http/guzzle6-adapter": "^2.0",
+        "tschope/guzzle7-adapter": "^1.0",
         "guzzlehttp/psr7": "^1.6",
         "myclabs/php-enum": "^1.7"
     },
